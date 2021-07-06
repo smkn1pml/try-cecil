@@ -1,0 +1,18 @@
+{
+  "name": "smkn1pml/website",
+  "type": "project",
+  "description": "Static website of SMK Negeri 1 Pemalang built with Cecil",
+  "keywords": [
+    "smkn1pml"
+  ],
+  "license": "CC-BY-NC-ND-4.0",
+  "require": {},
+  "authors": [
+    {
+      "name": "Suluh Sulistiawan",
+      "email": "suluh.webdevelopers@hotmail.com"
+    }
+  ],
+  "minimum-stability": "dev",
+  "prefer-stable": true
+}

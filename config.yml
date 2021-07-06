@@ -1,0 +1,78 @@
+title: SMK Negeri 1 Pemalang
+baseline: >
+  Bertaqwa, Profesional, Sesuai Perkembangan IPTEK dan Mampu Bersaing di Dunia Kerja.
+description: >
+  SMK Negeri 1 Pemalang adalah satu-satunya Lembaga Pendidikan Menengah Kejuruan Negeri yang ada di Pemalang, Jawa Tengah.
+
+baseurl: http://localhost:8000/
+canonicalurl: true
+
+pagination:
+  max: 4
+  path:
+
+date:
+  format: j F Y
+  timezone: Asia/Jakarta
+
+language: id
+languages:
+  - code: id
+    name: Indonesia
+    locale: id_ID
+
+paths:
+  - section: Articles
+    path: read/:slug
+    sortby: date
+  - section: Majors
+    path: major/:slug
+    sortby: title
+  - section: Pages
+    path: p/:slug
+    sortby: date
+
+assets:
+  fingerprint:
+    enabled: false
+  compile:
+    enabled: true
+    style: compressed
+    import: [sass, scss]
+  minify:
+    enabled: true
+
+postprocess:
+  enabled: true
+  html:
+    ext: [html, htm]
+  css:
+    ext: [css]
+  js:
+    ext: [js]
+  images:
+    ext: [jpeg, jpg, png, gif, webp, svg]
+
+author:
+  name: Administrator
+  url: https://smkn1pml.sch.id
+
+virtualpages:
+  - path: sooluh
+    redirect: https://github.com/sooluh/
+  - path: page/sejarah
+    redirect: https://smkn1pml.sch.id/history/
+  - path: page/visi-misi
+    redirect: https://smkn1pml.sch.id/vision-mission/
+  - path: page/fasilitas
+    redirect: https://smkn1pml.sch.id/facilities/
+  - path: page/profil
+    redirect: https://smkn1pml.sch.id/p/profile/
+  - path: page/ppdb
+    redirect: https://smkn1pml.sch.id/admissions/
+  - path: page/kelulusan
+    redirect: https://smkn1pml.sch.id/graduate/
+  - path: gallery
+    redirect: https://smkn1pml.sch.id/galleries/
+  - path: contact
+    redirect: https://smkn1pml.sch.id/contact-us/

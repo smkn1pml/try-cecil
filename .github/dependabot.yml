@@ -1,0 +1,18 @@
+version: 2
+updates:
+  - package-ecosystem: "composer"
+    directory: "/" # Location of package manifests
+    schedule:
+      interval: "daily"
+    assignees:
+      - "sooluh"
+    commit-message:
+      prefix: "deps prod"
+      prefix-development: "deps dev"
+      include: "scope"
+    labels:
+      - "dependencies"
+    rebase-strategy: "auto"
+    reviewers:
+      - "sooluh"
+    versioning-strategy: lockfile-only
