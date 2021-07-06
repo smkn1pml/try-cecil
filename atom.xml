@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="id">
+  <id>https://smkn1pml.sch.id/try-cecil/</id>
+  <title>SMK Negeri 1 Pemalang</title>
+  <subtitle><![CDATA[SMK Negeri 1 Pemalang adalah satu-satunya Lembaga Pendidikan Menengah Kejuruan Negeri yang ada di Pemalang, Jawa Tengah.
+]]></subtitle>
+  <link href="https://smkn1pml.sch.id/try-cecil/atom.xml" rel="self" type="application/atom+xml" />
+  <link href="https://smkn1pml.sch.id/try-cecil/" rel="alternate" type="text/html" />
+  <updated>2021-07-06T22:11:59+07:00</updated>
+  <author>
+    <name>Administrator</name>
+    <uri>https://smkn1pml.sch.id</uri>
+  </author>
+  <entry xml:lang="id">
+    <id>https://smkn1pml.sch.id/try-cecil/admissions/</id>
+    <title>Informasi PPDB</title>
+    <content type="html">
+      <![CDATA[]]>
+    </content>
+    <link href="https://smkn1pml.sch.id/try-cecil/admissions/" rel="alternate" type="text/html" />
+    <published>2021-07-06T22:11:59+07:00</published>
+    <updated>2021-07-06T22:11:59+07:00</updated>
+  </entry>
+  <entry xml:lang="id">
+    <id>https://smkn1pml.sch.id/try-cecil/author/sooluh/</id>
+    <title>Suluh Sulistiawan</title>
+    <content type="html">
+      <![CDATA[]]>
+    </content>
+    <link href="https://smkn1pml.sch.id/try-cecil/author/sooluh/" rel="alternate" type="text/html" />
+    <published>2021-07-06T22:11:59+07:00</published>
+    <updated>2021-07-06T22:11:59+07:00</updated>
+  </entry>
+  <entry xml:lang="id">
+    <id>https://smkn1pml.sch.id/try-cecil/contact-us/</id>
+    <title>Kontak Kami</title>
+    <content type="html">
+      <![CDATA[]]>
+    </content>
+    <link href="https://smkn1pml.sch.id/try-cecil/contact-us/" rel="alternate" type="text/html" />
+    <published>2021-07-06T22:11:59+07:00</published>
+    <updated>2021-07-06T22:11:59+07:00</updated>
+  </entry>
+  <entry xml:lang="id">
+    <id>https://smkn1pml.sch.id/try-cecil/facilities/</id>
+    <title>Fasilitas Sekolah</title>
+    <content type="html">
+      <![CDATA[]]>
+    </content>
+    <link href="https://smkn1pml.sch.id/try-cecil/facilities/" rel="alternate" type="text/html" />
+    <published>2021-07-06T22:11:59+07:00</published>
+    <updated>2021-07-06T22:11:59+07:00</updated>
+  </entry>
+  <entry xml:lang="id">
+    <id>https://smkn1pml.sch.id/try-cecil/galleries/</id>
+    <title>Galeri Kegiatan</title>
+    <content type="html">
+      <![CDATA[]]>
+    </content>
+    <link href="https://smkn1pml.sch.id/try-cecil/galleries/" rel="alternate" type="text/html" />
+    <published>2021-07-06T22:11:59+07:00</published>
+    <updated>2021-07-06T22:11:59+07:00</updated>
+  </entry>
+  <entry xml:lang="id">
+    <id>https://smkn1pml.sch.id/try-cecil/graduate/</id>
+    <title>Informasi Kelulusan</title>
+    <content type="html">
+      <![CDATA[]]>
+    </content>
+    <link href="https://smkn1pml.sch.id/try-cecil/graduate/" rel="alternate" type="text/html" />
+    <published>2021-07-06T22:11:59+07:00</published>
+    <updated>2021-07-06T22:11:59+07:00</updated>
+  </entry>
+  <entry xml:lang="id">
+    <id>https://smkn1pml.sch.id/try-cecil/history/</id>
+    <title>Sejarah Sekolah</title>
+    <content type="html">
+      <![CDATA[]]>
+    </content>
+    <link href="https://smkn1pml.sch.id/try-cecil/history/" rel="alternate" type="text/html" />
+    <published>2021-07-06T22:11:59+07:00</published>
+    <updated>2021-07-06T22:11:59+07:00</updated>
+  </entry>
+  <entry xml:lang="id">
+    <id>https://smkn1pml.sch.id/try-cecil/major/tkj/</id>
+    <title>Teknik Komputer dan Jaringan</title>
+    <content type="html">
+      <![CDATA[]]>
+    </content>
+    <link href="https://smkn1pml.sch.id/try-cecil/major/tkj/" rel="alternate" type="text/html" />
+    <published>2021-07-06T22:11:59+07:00</published>
+    <updated>2021-07-06T22:11:59+07:00</updated>
+  </entry>
+  <entry xml:lang="id">
+    <id>https://smkn1pml.sch.id/try-cecil/p/profile/</id>
+    <title>Profil Sekolah</title>
+    <content type="html">
+      <![CDATA[]]>
+    </content>
+    <link href="https://smkn1pml.sch.id/try-cecil/p/profile/" rel="alternate" type="text/html" />
+    <published>2021-07-06T22:11:59+07:00</published>
+    <updated>2021-07-06T22:11:59+07:00</updated>
+  </entry>
+  <entry xml:lang="id">
+    <id>https://smkn1pml.sch.id/try-cecil/vision-mission/</id>
+    <title>Visi &amp; Misi</title>
+    <content type="html">
+      <![CDATA[]]>
+    </content>
+    <link href="https://smkn1pml.sch.id/try-cecil/vision-mission/" rel="alternate" type="text/html" />
+    <published>2021-07-06T22:11:59+07:00</published>
+    <updated>2021-07-06T22:11:59+07:00</updated>
+  </entry>
+  <entry xml:lang="id">
+    <id>https://smkn1pml.sch.id/try-cecil/read/hello-world/</id>
+    <title>Hello World</title>
+    <content type="html">
+      <![CDATA[]]>
+    </content>
+    <link href="https://smkn1pml.sch.id/try-cecil/read/hello-world/" rel="alternate" type="text/html" />
+    <published>2021-07-06T07:00:00+07:00</published>
+    <updated>2021-07-06T07:00:00+07:00</updated>
+  </entry>
+</feed>

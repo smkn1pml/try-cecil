@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+Disallow: /404.html
+Sitemap: https://smkn1pml.sch.id/try-cecil/sitemap.xml
