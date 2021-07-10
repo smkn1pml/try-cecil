@@ -1,23 +1,23 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="id">
-  <id>https://smkn1pml.sch.id/try-cecil/tags/welcome/</id>
+  <id>https://smkn1pml.github.io/try-cecil/tags/welcome/</id>
   <title>SMK Negeri 1 Pemalang - welcome</title>
   <subtitle><![CDATA[SMK Negeri 1 Pemalang adalah satu-satunya Lembaga Pendidikan Menengah Kejuruan Negeri yang ada di Pemalang, Jawa Tengah.
 ]]></subtitle>
-  <link href="https://smkn1pml.sch.id/try-cecil/tags/welcome/atom.xml" rel="self" type="application/atom+xml" />
-  <link href="https://smkn1pml.sch.id/try-cecil/tags/welcome/" rel="alternate" type="text/html" />
+  <link href="https://smkn1pml.github.io/try-cecil/tags/welcome/atom.xml" rel="self" type="application/atom+xml" />
+  <link href="https://smkn1pml.github.io/try-cecil/tags/welcome/" rel="alternate" type="text/html" />
   <updated>2021-07-06T07:00:00+07:00</updated>
   <author>
     <name>Administrator</name>
     <uri>https://smkn1pml.sch.id</uri>
   </author>
   <entry xml:lang="id">
-    <id>https://smkn1pml.sch.id/try-cecil/read/hello-world/</id>
+    <id>https://smkn1pml.github.io/try-cecil/read/hello-world/</id>
     <title>Halo SMK Negeri 1 Pemalang</title>
     <content type="html">
       <![CDATA[<p>Selamat datang di website baru SMK Negeri 1 Pemalang.</p>]]>
     </content>
-    <link href="https://smkn1pml.sch.id/try-cecil/read/hello-world/" rel="alternate" type="text/html" />
+    <link href="https://smkn1pml.github.io/try-cecil/read/hello-world/" rel="alternate" type="text/html" />
     <published>2021-07-06T07:00:00+07:00</published>
     <updated>2021-07-06T07:00:00+07:00</updated>
   </entry>

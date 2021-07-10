@@ -1,18 +1,18 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="id">
-  <id>https://smkn1pml.sch.id/try-cecil/</id>
+  <id>https://smkn1pml.github.io/try-cecil/</id>
   <title>SMK Negeri 1 Pemalang</title>
   <subtitle><![CDATA[SMK Negeri 1 Pemalang adalah satu-satunya Lembaga Pendidikan Menengah Kejuruan Negeri yang ada di Pemalang, Jawa Tengah.
 ]]></subtitle>
-  <link href="https://smkn1pml.sch.id/try-cecil/atom.xml" rel="self" type="application/atom+xml" />
-  <link href="https://smkn1pml.sch.id/try-cecil/" rel="alternate" type="text/html" />
-  <updated>2021-07-10T19:18:03+07:00</updated>
+  <link href="https://smkn1pml.github.io/try-cecil/atom.xml" rel="self" type="application/atom+xml" />
+  <link href="https://smkn1pml.github.io/try-cecil/" rel="alternate" type="text/html" />
+  <updated>2021-07-10T22:51:14+07:00</updated>
   <author>
     <name>Administrator</name>
     <uri>https://smkn1pml.sch.id</uri>
   </author>
   <entry xml:lang="id">
-    <id>https://smkn1pml.sch.id/try-cecil/admissions/</id>
+    <id>https://smkn1pml.github.io/try-cecil/admissions/</id>
     <title>Informasi PPDB</title>
     <content type="html">
       <![CDATA[<p>PPDB SMK Negeri 1 Pemalang 2021 akan dilaksanakan pada tanggal-tangggal berikut ini :</p>
@@ -64,12 +64,12 @@
 <a href="https://bit.ly/3quMjLb">https://bit.ly/3quMjLb</a></p>
 <p>Untuk info lengkapnya silakan download brosur informasi PPDB SMK Negeri 1 Pemalang di link berikut : <a href="https://bit.ly/infoppdbsmkn1pml">bit.ly/infoppdbsmkn1pml</a>.</p>]]>
     </content>
-    <link href="https://smkn1pml.sch.id/try-cecil/admissions/" rel="alternate" type="text/html" />
-    <published>2021-07-10T19:18:03+07:00</published>
-    <updated>2021-07-10T19:18:03+07:00</updated>
+    <link href="https://smkn1pml.github.io/try-cecil/admissions/" rel="alternate" type="text/html" />
+    <published>2021-07-10T22:51:14+07:00</published>
+    <updated>2021-07-10T22:51:14+07:00</updated>
   </entry>
   <entry xml:lang="id">
-    <id>https://smkn1pml.sch.id/try-cecil/p/profile/</id>
+    <id>https://smkn1pml.github.io/try-cecil/p/profile/</id>
     <title>Profil Sekolah</title>
     <content type="html">
       <![CDATA[<p></p>
@@ -277,22 +277,22 @@
     </tr>
 </table>]]>
     </content>
-    <link href="https://smkn1pml.sch.id/try-cecil/p/profile/" rel="alternate" type="text/html" />
-    <published>2021-07-10T19:18:03+07:00</published>
-    <updated>2021-07-10T19:18:03+07:00</updated>
+    <link href="https://smkn1pml.github.io/try-cecil/p/profile/" rel="alternate" type="text/html" />
+    <published>2021-07-10T22:51:14+07:00</published>
+    <updated>2021-07-10T22:51:14+07:00</updated>
   </entry>
   <entry xml:lang="id">
-    <id>https://smkn1pml.sch.id/try-cecil/major/tkro/</id>
+    <id>https://smkn1pml.github.io/try-cecil/major/tkro/</id>
     <title>Teknik Kendaraan Ringan Otomotif</title>
     <content type="html">
       <![CDATA[<p>Deskripsi jurusan belum ada.</p>]]>
     </content>
-    <link href="https://smkn1pml.sch.id/try-cecil/major/tkro/" rel="alternate" type="text/html" />
-    <published>2021-07-10T19:18:03+07:00</published>
-    <updated>2021-07-10T19:18:03+07:00</updated>
+    <link href="https://smkn1pml.github.io/try-cecil/major/tkro/" rel="alternate" type="text/html" />
+    <published>2021-07-10T22:51:14+07:00</published>
+    <updated>2021-07-10T22:51:14+07:00</updated>
   </entry>
   <entry xml:lang="id">
-    <id>https://smkn1pml.sch.id/try-cecil/major/tkj/</id>
+    <id>https://smkn1pml.github.io/try-cecil/major/tkj/</id>
     <title>Teknik Komputer dan Jaringan</title>
     <content type="html">
       <![CDATA[<h3 id="tujuan">Tujuan</h3>
@@ -408,22 +408,22 @@ Perangkat ini dkembangkan oleh Ade Fitriadin dan Bara Ramadhan dengan bimbingan 
 Memanfaatkan lampu bekas yang sudah rusak, siswa tkj membuat lampu LED. dengan bimbingan bapak Suherman, S.Si</li>
 </ol>]]>
     </content>
-    <link href="https://smkn1pml.sch.id/try-cecil/major/tkj/" rel="alternate" type="text/html" />
-    <published>2021-07-10T19:18:03+07:00</published>
-    <updated>2021-07-10T19:18:03+07:00</updated>
+    <link href="https://smkn1pml.github.io/try-cecil/major/tkj/" rel="alternate" type="text/html" />
+    <published>2021-07-10T22:51:14+07:00</published>
+    <updated>2021-07-10T22:51:14+07:00</updated>
   </entry>
   <entry xml:lang="id">
-    <id>https://smkn1pml.sch.id/try-cecil/major/tbsm/</id>
+    <id>https://smkn1pml.github.io/try-cecil/major/tbsm/</id>
     <title>Teknik dan Bisnis Sepeda Motor</title>
     <content type="html">
       <![CDATA[<p>Deskripsi jurusan belum ada.</p>]]>
     </content>
-    <link href="https://smkn1pml.sch.id/try-cecil/major/tbsm/" rel="alternate" type="text/html" />
-    <published>2021-07-10T19:18:03+07:00</published>
-    <updated>2021-07-10T19:18:03+07:00</updated>
+    <link href="https://smkn1pml.github.io/try-cecil/major/tbsm/" rel="alternate" type="text/html" />
+    <published>2021-07-10T22:51:14+07:00</published>
+    <updated>2021-07-10T22:51:14+07:00</updated>
   </entry>
   <entry xml:lang="id">
-    <id>https://smkn1pml.sch.id/try-cecil/major/otkp/</id>
+    <id>https://smkn1pml.github.io/try-cecil/major/otkp/</id>
     <title>Otomatisasi dan Tata Kelola Perkantoran</title>
     <content type="html">
       <![CDATA[<p>Merupakan Kristalisasi Dari Program Keahlian Yang Harus Dikuasai Oleh Peserta Didik Untuk Dapat Bekerja Sesuai Dengan Standart Kompetensi Kerja Nasional Indonesia (SKKNI) Atau Standart Paket Keahlian : ADMINISTRASI PERKANTORAN.</p>
@@ -449,116 +449,116 @@ Memanfaatkan lampu bekas yang sudah rusak, siswa tkj membuat lampu LED. dengan b
 <li>DLL</li>
 </ol>]]>
     </content>
-    <link href="https://smkn1pml.sch.id/try-cecil/major/otkp/" rel="alternate" type="text/html" />
-    <published>2021-07-10T19:18:03+07:00</published>
-    <updated>2021-07-10T19:18:03+07:00</updated>
+    <link href="https://smkn1pml.github.io/try-cecil/major/otkp/" rel="alternate" type="text/html" />
+    <published>2021-07-10T22:51:14+07:00</published>
+    <updated>2021-07-10T22:51:14+07:00</updated>
   </entry>
   <entry xml:lang="id">
-    <id>https://smkn1pml.sch.id/try-cecil/major/bdp/</id>
+    <id>https://smkn1pml.github.io/try-cecil/major/bdp/</id>
     <title>Bisnis Daring Pemasaran</title>
     <content type="html">
       <![CDATA[<p>Deskripsi jurusan belum ada.</p>]]>
     </content>
-    <link href="https://smkn1pml.sch.id/try-cecil/major/bdp/" rel="alternate" type="text/html" />
-    <published>2021-07-10T19:18:03+07:00</published>
-    <updated>2021-07-10T19:18:03+07:00</updated>
+    <link href="https://smkn1pml.github.io/try-cecil/major/bdp/" rel="alternate" type="text/html" />
+    <published>2021-07-10T22:51:14+07:00</published>
+    <updated>2021-07-10T22:51:14+07:00</updated>
   </entry>
   <entry xml:lang="id">
-    <id>https://smkn1pml.sch.id/try-cecil/major/akl/</id>
+    <id>https://smkn1pml.github.io/try-cecil/major/akl/</id>
     <title>Akuntansi dan Keuangan Lembaga</title>
     <content type="html">
       <![CDATA[<p>Deskripsi jurusan belum ada.</p>]]>
     </content>
-    <link href="https://smkn1pml.sch.id/try-cecil/major/akl/" rel="alternate" type="text/html" />
-    <published>2021-07-10T19:18:03+07:00</published>
-    <updated>2021-07-10T19:18:03+07:00</updated>
+    <link href="https://smkn1pml.github.io/try-cecil/major/akl/" rel="alternate" type="text/html" />
+    <published>2021-07-10T22:51:14+07:00</published>
+    <updated>2021-07-10T22:51:14+07:00</updated>
   </entry>
   <entry xml:lang="id">
-    <id>https://smkn1pml.sch.id/try-cecil/history/</id>
+    <id>https://smkn1pml.github.io/try-cecil/history/</id>
     <title>Sejarah Sekolah</title>
     <content type="html">
       <![CDATA[]]>
     </content>
-    <link href="https://smkn1pml.sch.id/try-cecil/history/" rel="alternate" type="text/html" />
-    <published>2021-07-10T19:18:03+07:00</published>
-    <updated>2021-07-10T19:18:03+07:00</updated>
+    <link href="https://smkn1pml.github.io/try-cecil/history/" rel="alternate" type="text/html" />
+    <published>2021-07-10T22:51:14+07:00</published>
+    <updated>2021-07-10T22:51:14+07:00</updated>
   </entry>
   <entry xml:lang="id">
-    <id>https://smkn1pml.sch.id/try-cecil/graduate/</id>
+    <id>https://smkn1pml.github.io/try-cecil/graduate/</id>
     <title>Informasi Kelulusan</title>
     <content type="html">
       <![CDATA[<p>Informasi Kelulusan SMK Negeri 1 Pemalang tahun 2020/2021 akan diumumkan pada tanggal 3 Juni 2021 pukul 16:00 WIB.</p>
 <p>Siswa dapat melakukan cek status kelulusannya melalui halaman website <a href="https://kelulusan.smkn1pml.sch.id">kelulusan.smkn1pml.sch.id</a> dengan memasukkan NISN.</p>]]>
     </content>
-    <link href="https://smkn1pml.sch.id/try-cecil/graduate/" rel="alternate" type="text/html" />
-    <published>2021-07-10T19:18:03+07:00</published>
-    <updated>2021-07-10T19:18:03+07:00</updated>
+    <link href="https://smkn1pml.github.io/try-cecil/graduate/" rel="alternate" type="text/html" />
+    <published>2021-07-10T22:51:14+07:00</published>
+    <updated>2021-07-10T22:51:14+07:00</updated>
   </entry>
   <entry xml:lang="id">
-    <id>https://smkn1pml.sch.id/try-cecil/galleries/</id>
+    <id>https://smkn1pml.github.io/try-cecil/galleries/</id>
     <title>Galeri Kegiatan</title>
     <content type="html">
       <![CDATA[]]>
     </content>
-    <link href="https://smkn1pml.sch.id/try-cecil/galleries/" rel="alternate" type="text/html" />
-    <published>2021-07-10T19:18:03+07:00</published>
-    <updated>2021-07-10T19:18:03+07:00</updated>
+    <link href="https://smkn1pml.github.io/try-cecil/galleries/" rel="alternate" type="text/html" />
+    <published>2021-07-10T22:51:14+07:00</published>
+    <updated>2021-07-10T22:51:14+07:00</updated>
   </entry>
   <entry xml:lang="id">
-    <id>https://smkn1pml.sch.id/try-cecil/facilities/</id>
+    <id>https://smkn1pml.github.io/try-cecil/facilities/</id>
     <title>Fasilitas Sekolah</title>
     <content type="html">
       <![CDATA[]]>
     </content>
-    <link href="https://smkn1pml.sch.id/try-cecil/facilities/" rel="alternate" type="text/html" />
-    <published>2021-07-10T19:18:03+07:00</published>
-    <updated>2021-07-10T19:18:03+07:00</updated>
+    <link href="https://smkn1pml.github.io/try-cecil/facilities/" rel="alternate" type="text/html" />
+    <published>2021-07-10T22:51:14+07:00</published>
+    <updated>2021-07-10T22:51:14+07:00</updated>
   </entry>
   <entry xml:lang="id">
-    <id>https://smkn1pml.sch.id/try-cecil/contact-us/</id>
+    <id>https://smkn1pml.github.io/try-cecil/contact-us/</id>
     <title>Kontak Kami</title>
     <content type="html">
       <![CDATA[]]>
     </content>
-    <link href="https://smkn1pml.sch.id/try-cecil/contact-us/" rel="alternate" type="text/html" />
-    <published>2021-07-10T19:18:03+07:00</published>
-    <updated>2021-07-10T19:18:03+07:00</updated>
+    <link href="https://smkn1pml.github.io/try-cecil/contact-us/" rel="alternate" type="text/html" />
+    <published>2021-07-10T22:51:14+07:00</published>
+    <updated>2021-07-10T22:51:14+07:00</updated>
   </entry>
   <entry xml:lang="id">
-    <id>https://smkn1pml.sch.id/try-cecil/author/sooluh/</id>
-    <title>Suluh Sulistiawan</title>
+    <id>https://smkn1pml.github.io/try-cecil/author/</id>
+    <title>Pengembang</title>
     <content type="html">
       <![CDATA[<p>Hai, perkenalkan nama saya <strong>Suluh Sulistiawan</strong>, saya adalah salah satu siswa SMK Negeri 1 Pemalang jurusan Teknik Komputer &amp; Jaringan angkatan 53. Saya mulai mempelajari bahasa pemrograman sejak tahun 2015 tepatnya saat saya berada dibangku SMP kelas 1. Awalnya saya hanya ingin tahu bagaimana sebuah game bekerja dan berjalan, namun karena keterbatasan perangkat (komputer) yang saya punya pada saat itu, saya mengubah haluan dan tertarik pada dunia blogging hingga pada suatu saat dimana saya merasa fitur-fitur yang tersedia pada platform blogger terbatas, akhirnya saya mencoba mengembangkan sebuah website dan menyesuaikan fitur-fitur yang saya butuhkan sendiri. Dari situlah saya memulai karir sebagai pengembang website.</p>
 <p>Tentu saja saya memilih SMK Negeri 1 Pemalang dan jurusan TKJ, selain satu-satunya SMK Negeri yang ada di kecamatan Pemalang, hobi saya yang terletak dibidang komputer pun membuat saya memilih untuk melanjutkan pendidikan disini. Saya mulai aktif berpastisipasi dalam lomba untuk mewakili SMK sejak bulan Agustus tahun 2019, tepatnya pada tanggal 18 saya mengikuti Pekan Ilmiah STMIK Widya Pratama Pekalongan pada bidang Web Design. Alhamdulillah pada kesempatan yang pertama itu, saya berhasil mendapatkan peringkat 1.</p>
 <p>Setelah itu, saya mengikuti Lomba Kompetensi Siswa ditingkat Kabupaten tahun 2019 mata lomba Web Technology dan alhamdulillah, walaupun kurang memuaskan :) saya mendapatkan juara ke-3. Dan yang terakhir, saya bersama 2 orang lainnya (Wardah Nur Abiyyah &amp; Ivan Rizkya Susanto) mewakili sekolah untuk mengikuti Kamp Kreatif SMK Indonesia tahun 2020 pada mata lomba Smart Apps for School dan berhasil mendapatkan juara 3 ditingkat Nasional.</p>
 <p>Website SMK Negeri 1 Pemalang ini dibangun tidak menggunakan backend dan tentunya sangat sederhana. Saya mempertimbangkan betul-betul tentang kebutuhan dan kegunaan website sekolah ini sendiri, dimana yang utama adalah informasi penting dari sekolah bisa sampai ke pengunjung dengan baik dan benar. Statis adalah pilihan yang tepat untuk website yang mengutamakan kecepatan, juga website yang tidak setiap saat harus diupdate. Yang terpenting website ini masih bisa dikelola kontennya dengan mudah. Setelah sebelumnya menggunakan Jekyll kini saya memilih Cecil sebagai <em>Static Site Generator</em>, GitHub sebagai <em>File Hosting</em>, GitHub Pages sebagai CDN-nya, dan Netlify CMS sebagai <em>Content Management System</em>.</p>]]>
     </content>
-    <link href="https://smkn1pml.sch.id/try-cecil/author/sooluh/" rel="alternate" type="text/html" />
-    <published>2021-07-10T19:18:03+07:00</published>
-    <updated>2021-07-10T19:18:03+07:00</updated>
+    <link href="https://smkn1pml.github.io/try-cecil/author/" rel="alternate" type="text/html" />
+    <published>2021-07-10T22:51:14+07:00</published>
+    <updated>2021-07-10T22:51:14+07:00</updated>
   </entry>
   <entry xml:lang="id">
-    <id>https://smkn1pml.sch.id/try-cecil/vision-mission/</id>
+    <id>https://smkn1pml.github.io/try-cecil/vision-mission/</id>
     <title>Visi &amp; Misi</title>
     <content type="html">
       <![CDATA[]]>
     </content>
-    <link href="https://smkn1pml.sch.id/try-cecil/vision-mission/" rel="alternate" type="text/html" />
-    <published>2021-07-10T19:18:03+07:00</published>
-    <updated>2021-07-10T19:18:03+07:00</updated>
+    <link href="https://smkn1pml.github.io/try-cecil/vision-mission/" rel="alternate" type="text/html" />
+    <published>2021-07-10T22:51:14+07:00</published>
+    <updated>2021-07-10T22:51:14+07:00</updated>
   </entry>
   <entry xml:lang="id">
-    <id>https://smkn1pml.sch.id/try-cecil/read/hello-world/</id>
+    <id>https://smkn1pml.github.io/try-cecil/read/hello-world/</id>
     <title>Halo SMK Negeri 1 Pemalang</title>
     <content type="html">
       <![CDATA[<p>Selamat datang di website baru SMK Negeri 1 Pemalang.</p>]]>
     </content>
-    <link href="https://smkn1pml.sch.id/try-cecil/read/hello-world/" rel="alternate" type="text/html" />
+    <link href="https://smkn1pml.github.io/try-cecil/read/hello-world/" rel="alternate" type="text/html" />
     <published>2021-07-06T07:00:00+07:00</published>
     <updated>2021-07-06T07:00:00+07:00</updated>
   </entry>
   <entry xml:lang="id">
-    <id>https://smkn1pml.sch.id/try-cecil/read/info-daftar-ulang-ppdb-2021/</id>
+    <id>https://smkn1pml.github.io/try-cecil/read/info-daftar-ulang-ppdb-2021/</id>
     <title>Info Daftar Ulang PPDB 2021</title>
     <content type="html">
       <![CDATA[<p>Silakan bagi siswa yang diterima, supaya buka link ini <a href="https://bit.ly/3quMjLb">https://bit.ly/3quMjLb</a> untuk mendownload berkas :</p>
@@ -573,12 +573,12 @@ Memanfaatkan lampu bekas yang sudah rusak, siswa tkj membuat lampu LED. dengan b
 <a href="https://bit.ly/3quMjLb">https://bit.ly/3quMjLb</a></p>
 <p>Selamat bagi semua siswa yang berhasil lolos seleksi masuk SMK Negeri 1 Pemalang.</p>]]>
     </content>
-    <link href="https://smkn1pml.sch.id/try-cecil/read/info-daftar-ulang-ppdb-2021/" rel="alternate" type="text/html" />
+    <link href="https://smkn1pml.github.io/try-cecil/read/info-daftar-ulang-ppdb-2021/" rel="alternate" type="text/html" />
     <published>2021-06-26T07:00:00+07:00</published>
     <updated>2021-06-26T07:00:00+07:00</updated>
   </entry>
   <entry xml:lang="id">
-    <id>https://smkn1pml.sch.id/try-cecil/read/pelaksanaan-ppdb-smk-negeri-1-pemalang-tahun-2021/</id>
+    <id>https://smkn1pml.github.io/try-cecil/read/pelaksanaan-ppdb-smk-negeri-1-pemalang-tahun-2021/</id>
     <title>Pelaksanaan PPDB SMK Negeri 1 Pemalang Tahun 2021</title>
     <content type="html">
       <![CDATA[<p>PPDB SMK Negeri 1 Pemalang 2021 akan dilaksanakan pada tanggal-tangggal berikut ini :</p>
@@ -591,12 +591,12 @@ Memanfaatkan lampu bekas yang sudah rusak, siswa tkj membuat lampu LED. dengan b
 <li>Awal Tahun Ajaran Baru : 12 Juli 2021</li>
 </ol>]]>
     </content>
-    <link href="https://smkn1pml.sch.id/try-cecil/read/pelaksanaan-ppdb-smk-negeri-1-pemalang-tahun-2021/" rel="alternate" type="text/html" />
+    <link href="https://smkn1pml.github.io/try-cecil/read/pelaksanaan-ppdb-smk-negeri-1-pemalang-tahun-2021/" rel="alternate" type="text/html" />
     <published>2021-05-25T07:00:00+07:00</published>
     <updated>2021-05-25T07:00:00+07:00</updated>
   </entry>
   <entry xml:lang="id">
-    <id>https://smkn1pml.sch.id/try-cecil/read/lks-smk-provinsi-jawa-tengah-tahun-2021/</id>
+    <id>https://smkn1pml.github.io/try-cecil/read/lks-smk-provinsi-jawa-tengah-tahun-2021/</id>
     <title>LKS SMK Provinsi Jawa Tengah Tahun 2021</title>
     <content type="html">
       <![CDATA[<p>SMK Negeri 1 Pemalang pada tanggal 22-25 maret 2021 mengikuti LKS tingkat Jawa Tengah bidang yg diikuti antara lain</p>
@@ -634,7 +634,7 @@ Karmila</p>
 <p><strong>Pembimbing</strong><br />
 Nurul Fuadah, S.Pd</p>]]>
     </content>
-    <link href="https://smkn1pml.sch.id/try-cecil/read/lks-smk-provinsi-jawa-tengah-tahun-2021/" rel="alternate" type="text/html" />
+    <link href="https://smkn1pml.github.io/try-cecil/read/lks-smk-provinsi-jawa-tengah-tahun-2021/" rel="alternate" type="text/html" />
     <published>2021-03-24T07:00:00+07:00</published>
     <updated>2021-03-24T07:00:00+07:00</updated>
   </entry>

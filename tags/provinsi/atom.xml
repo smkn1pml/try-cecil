@@ -1,18 +1,18 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="id">
-  <id>https://smkn1pml.sch.id/try-cecil/tags/provinsi/</id>
+  <id>https://smkn1pml.github.io/try-cecil/tags/provinsi/</id>
   <title>SMK Negeri 1 Pemalang - provinsi</title>
   <subtitle><![CDATA[SMK Negeri 1 Pemalang adalah satu-satunya Lembaga Pendidikan Menengah Kejuruan Negeri yang ada di Pemalang, Jawa Tengah.
 ]]></subtitle>
-  <link href="https://smkn1pml.sch.id/try-cecil/tags/provinsi/atom.xml" rel="self" type="application/atom+xml" />
-  <link href="https://smkn1pml.sch.id/try-cecil/tags/provinsi/" rel="alternate" type="text/html" />
+  <link href="https://smkn1pml.github.io/try-cecil/tags/provinsi/atom.xml" rel="self" type="application/atom+xml" />
+  <link href="https://smkn1pml.github.io/try-cecil/tags/provinsi/" rel="alternate" type="text/html" />
   <updated>2021-03-24T07:00:00+07:00</updated>
   <author>
     <name>Administrator</name>
     <uri>https://smkn1pml.sch.id</uri>
   </author>
   <entry xml:lang="id">
-    <id>https://smkn1pml.sch.id/try-cecil/read/lks-smk-provinsi-jawa-tengah-tahun-2021/</id>
+    <id>https://smkn1pml.github.io/try-cecil/read/lks-smk-provinsi-jawa-tengah-tahun-2021/</id>
     <title>LKS SMK Provinsi Jawa Tengah Tahun 2021</title>
     <content type="html">
       <![CDATA[<p>SMK Negeri 1 Pemalang pada tanggal 22-25 maret 2021 mengikuti LKS tingkat Jawa Tengah bidang yg diikuti antara lain</p>
@@ -50,7 +50,7 @@ Karmila</p>
 <p><strong>Pembimbing</strong><br />
 Nurul Fuadah, S.Pd</p>]]>
     </content>
-    <link href="https://smkn1pml.sch.id/try-cecil/read/lks-smk-provinsi-jawa-tengah-tahun-2021/" rel="alternate" type="text/html" />
+    <link href="https://smkn1pml.github.io/try-cecil/read/lks-smk-provinsi-jawa-tengah-tahun-2021/" rel="alternate" type="text/html" />
     <published>2021-03-24T07:00:00+07:00</published>
     <updated>2021-03-24T07:00:00+07:00</updated>
   </entry>

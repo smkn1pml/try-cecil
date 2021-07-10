@@ -1,28 +1,28 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="id">
-  <id>https://smkn1pml.sch.id/try-cecil/articles/</id>
+  <id>https://smkn1pml.github.io/try-cecil/articles/</id>
   <title>SMK Negeri 1 Pemalang - Articles</title>
   <subtitle><![CDATA[SMK Negeri 1 Pemalang adalah satu-satunya Lembaga Pendidikan Menengah Kejuruan Negeri yang ada di Pemalang, Jawa Tengah.
 ]]></subtitle>
-  <link href="https://smkn1pml.sch.id/try-cecil/articles/atom.xml" rel="self" type="application/atom+xml" />
-  <link href="https://smkn1pml.sch.id/try-cecil/articles/" rel="alternate" type="text/html" />
+  <link href="https://smkn1pml.github.io/try-cecil/articles/atom.xml" rel="self" type="application/atom+xml" />
+  <link href="https://smkn1pml.github.io/try-cecil/articles/" rel="alternate" type="text/html" />
   <updated>2021-07-06T07:00:00+07:00</updated>
   <author>
     <name>Administrator</name>
     <uri>https://smkn1pml.sch.id</uri>
   </author>
   <entry xml:lang="id">
-    <id>https://smkn1pml.sch.id/try-cecil/read/hello-world/</id>
+    <id>https://smkn1pml.github.io/try-cecil/read/hello-world/</id>
     <title>Halo SMK Negeri 1 Pemalang</title>
     <content type="html">
       <![CDATA[<p>Selamat datang di website baru SMK Negeri 1 Pemalang.</p>]]>
     </content>
-    <link href="https://smkn1pml.sch.id/try-cecil/read/hello-world/" rel="alternate" type="text/html" />
+    <link href="https://smkn1pml.github.io/try-cecil/read/hello-world/" rel="alternate" type="text/html" />
     <published>2021-07-06T07:00:00+07:00</published>
     <updated>2021-07-06T07:00:00+07:00</updated>
   </entry>
   <entry xml:lang="id">
-    <id>https://smkn1pml.sch.id/try-cecil/read/info-daftar-ulang-ppdb-2021/</id>
+    <id>https://smkn1pml.github.io/try-cecil/read/info-daftar-ulang-ppdb-2021/</id>
     <title>Info Daftar Ulang PPDB 2021</title>
     <content type="html">
       <![CDATA[<p>Silakan bagi siswa yang diterima, supaya buka link ini <a href="https://bit.ly/3quMjLb">https://bit.ly/3quMjLb</a> untuk mendownload berkas :</p>
@@ -37,12 +37,12 @@
 <a href="https://bit.ly/3quMjLb">https://bit.ly/3quMjLb</a></p>
 <p>Selamat bagi semua siswa yang berhasil lolos seleksi masuk SMK Negeri 1 Pemalang.</p>]]>
     </content>
-    <link href="https://smkn1pml.sch.id/try-cecil/read/info-daftar-ulang-ppdb-2021/" rel="alternate" type="text/html" />
+    <link href="https://smkn1pml.github.io/try-cecil/read/info-daftar-ulang-ppdb-2021/" rel="alternate" type="text/html" />
     <published>2021-06-26T07:00:00+07:00</published>
     <updated>2021-06-26T07:00:00+07:00</updated>
   </entry>
   <entry xml:lang="id">
-    <id>https://smkn1pml.sch.id/try-cecil/read/pelaksanaan-ppdb-smk-negeri-1-pemalang-tahun-2021/</id>
+    <id>https://smkn1pml.github.io/try-cecil/read/pelaksanaan-ppdb-smk-negeri-1-pemalang-tahun-2021/</id>
     <title>Pelaksanaan PPDB SMK Negeri 1 Pemalang Tahun 2021</title>
     <content type="html">
       <![CDATA[<p>PPDB SMK Negeri 1 Pemalang 2021 akan dilaksanakan pada tanggal-tangggal berikut ini :</p>
@@ -55,12 +55,12 @@
 <li>Awal Tahun Ajaran Baru : 12 Juli 2021</li>
 </ol>]]>
     </content>
-    <link href="https://smkn1pml.sch.id/try-cecil/read/pelaksanaan-ppdb-smk-negeri-1-pemalang-tahun-2021/" rel="alternate" type="text/html" />
+    <link href="https://smkn1pml.github.io/try-cecil/read/pelaksanaan-ppdb-smk-negeri-1-pemalang-tahun-2021/" rel="alternate" type="text/html" />
     <published>2021-05-25T07:00:00+07:00</published>
     <updated>2021-05-25T07:00:00+07:00</updated>
   </entry>
   <entry xml:lang="id">
-    <id>https://smkn1pml.sch.id/try-cecil/read/lks-smk-provinsi-jawa-tengah-tahun-2021/</id>
+    <id>https://smkn1pml.github.io/try-cecil/read/lks-smk-provinsi-jawa-tengah-tahun-2021/</id>
     <title>LKS SMK Provinsi Jawa Tengah Tahun 2021</title>
     <content type="html">
       <![CDATA[<p>SMK Negeri 1 Pemalang pada tanggal 22-25 maret 2021 mengikuti LKS tingkat Jawa Tengah bidang yg diikuti antara lain</p>
@@ -98,7 +98,7 @@ Karmila</p>
 <p><strong>Pembimbing</strong><br />
 Nurul Fuadah, S.Pd</p>]]>
     </content>
-    <link href="https://smkn1pml.sch.id/try-cecil/read/lks-smk-provinsi-jawa-tengah-tahun-2021/" rel="alternate" type="text/html" />
+    <link href="https://smkn1pml.github.io/try-cecil/read/lks-smk-provinsi-jawa-tengah-tahun-2021/" rel="alternate" type="text/html" />
     <published>2021-03-24T07:00:00+07:00</published>
     <updated>2021-03-24T07:00:00+07:00</updated>
   </entry>
