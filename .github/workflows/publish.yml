@@ -6,7 +6,7 @@ on:
       intl:
         required: false
         description: "Installs internationalization extensions"
-        default: "no"
+        default: "yes"
   push:
     branches:
       - main
@@ -15,7 +15,7 @@ on:
 
 env:
   CECIL_VERSION: "5.56.1"
-  INTL: "no" # 'yes' if internationalization extensions are required
+  INTL: "yes" # 'yes' if internationalization extensions are required
 
 jobs:
   build:
