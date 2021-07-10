@@ -39,7 +39,7 @@
     "php": ">=7.1",
     "ext-intl": "*",
     "ext-gettext": "*",
-    "cecil/cecil": "*"
+    "cecil/cecil": "^5.54.0"
   },
   "minimum-stability": "dev",
   "prefer-stable": true
