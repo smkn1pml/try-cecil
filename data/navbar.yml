@@ -1,32 +1,32 @@
 menus:
   - title: Beranda
-    url: /
+    url: 
     children: []
 
   - title: Artikel
-    url: /articles/
+    url: articles
     children: []
 
   - title: Profil
     url:
     children:
       - title: Sejarah Sekolah
-        url: /history/
+        url: history
       - title: Visi & Misi
-        url: /vision-mission/
+        url: vision-mission
       - title: Fasilitas Sekolah
-        url: /facilities/
+        url: facilities
       - title: Profil Sekolah
-        url: /p/profile/
+        url: p/profile
       - title: Informasi PPDB
-        url: /admissions/
+        url: admissions
       - title: Informasi Kelulusan
-        url: /graduate/
+        url: graduate
 
   - title: Galeri
-    url: /galleries/
+    url: galleries
     children: []
 
   - title: Hubungi Kami
-    url: /contact-us/
+    url: contact-us
     children: []

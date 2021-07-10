@@ -1,6 +1,7 @@
 ---
 title: Teknik Komputer dan Jaringan
 color: orange
+icon: wifi-router
 external:
 published: true
 ---

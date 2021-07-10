@@ -1,5 +1,5 @@
 name: SMK Negeri 1 Pemalang
-slogan: >
+tagline: >
   Bertaqwa, Profesional, Sesuai Perkembangan IPTEK dan Mampu Bersaing di Dunia Kerja.
 vision: >
   Mewujudkan lembaga pendidikan vokasi yang lulusannya bertaqwa, berdaya saing, kompeten sesuai perkembangan ilmu pengetahuan, teknologi dan seni serta berjiwa wirausaha.
@@ -22,6 +22,11 @@ goals:
   - content: >
       Menghasilkan lulusan yang mampu menguasai ilmu pengetahuan, teknologi dan seni.
 
+summary:
+  accreditation: A
+  achievement: 120
+  dayschool: 5
+
 address:
   link: https://goo.gl/maps/3FPYbuNdiLgSkTVy9
   text: >
@@ -33,8 +38,8 @@ contact:
   email: smk1pml@gmail.com
 
 socials:
-  facebook: https://www.facebook.com/SMKN1Pemalang/
-  instagram: https://www.instagram.com/smkn1pml/
-  twitter: https://www.twitter.com/smkn1pemalang/
-  linkedin: https://www.linkedin.com/school/smkn1pemalang/
-  youtube: https://www.youtube.com/channel/UCuhDOTp4aWqHYZ6O0GRmRuQ/
+  facebook: smkn1pemalang
+  instagram: smkn1pml
+  twitter: smkn1pemalang
+  linkedin: school/smkn1pemalang
+  youtube: channel/UCuhDOTp4aWqHYZ6O0GRmRuQ

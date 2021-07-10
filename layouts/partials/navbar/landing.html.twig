@@ -1,0 +1,44 @@
+<header id="topnav" class="defaultscroll sticky">
+	<div class="container">
+		<a class="logo" href="{{ url() }}">
+			<span class="logo-light-mode">
+				<img src="{{ site.data.site.logo|url }}" class="l-dark" height="24" alt="">
+				<img src="{{ site.data.site.logo|url }}" class="l-light" height="24" alt="">
+			</span>
+			<img src="{{ site.data.site.logo|url }}" height="24" class="logo-dark-mode" alt="">
+		</a>
+
+		<div class="menu-extras">
+			<div class="menu-item">
+				<a class="navbar-toggle" id="isToggle" onclick="toggleMenu()">
+					<div class="lines">
+						<span></span>
+						<span></span>
+						<span></span>
+					</div>
+				</a>
+			</div>
+		</div>
+
+		<div id="navigation">
+			<ul class="navigation-menu nav-light">
+				{% for menu in site.data.navbar.menus %}
+					{% if menu.children|length > 0 %}
+						<li class="has-submenu parent-menu-item">
+							<a href="javascript:void(0)">{{ menu.title }}</a>
+							<span class="menu-arrow"></span>
+
+							<ul class="submenu">
+								{% for children in menu.children %}
+									<li><a href="{{ children.url|url }}" class="sub-menu-item">{{ children.title }}</a></li>
+								{% endfor %}
+							</ul>
+						</li>
+					{% else %}
+						<li><a href="{{ menu.url|url }}" class="sub-menu-item">{{ menu.title }}</a></li>
+					{% endif %}
+				{% endfor %}
+			</ul>
+		</div>
+	</div>
+</header>

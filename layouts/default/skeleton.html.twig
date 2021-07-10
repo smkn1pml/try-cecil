@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+
+{% include 'partials/head.html.twig' with { 'page': page, 'site': site } only %}
+
+<body>
+	{% include 'partials/noscript.html.twig' with { 'page': page, 'site': site } only %}
+	{% include 'partials/preloader.html.twig' with { 'page': page, 'site': site } only %}
+	{% include 'partials/navbar/general.html.twig' with { 'page': page, 'site': site } only %}
+
+	{% block content %}
+		{{ page.content }}
+	{% endblock content %}
+
+	{% include 'partials/footer.html.twig' with { 'page': page, 'site': site } only %}
+	{% include 'partials/script.html.twig' with { 'page': page, 'site': site } only %}
+</body>
+
+</html>

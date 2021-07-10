@@ -1,0 +1,184 @@
+{#- Title Start -#}
+{% if title is not defined %}
+	{% set title = page.title|e ~ ' - ' ~ site.data.school.name|e  %}
+	{% if page.id == 'index' %}
+		{% set title = site.data.school.name|e %}
+	{% endif %}
+{% endif %}
+{#- Title End -#}
+
+{#- Description Start -#}
+{% set description = page.description|default(site.data.site.description)|e|trim %}
+{#- Description End -#}
+
+{#- Keywords Start -#}
+{% set keywords = page.tags|default([])|merge(site.data.site.keywords|default([]))|e %}
+{#- Keywords End -#}
+
+{#- Author Start -#}
+{% set author = page.author|default(site.author|default(''))|e %}
+{% if author.name is defined %}
+	{% set author = author.name|e %}
+{% endif %}
+{% if author.firstname is defined and author.lastname is defined %}
+	{% set author = author.firstname|e ~ ' ' ~ author.lastname|e %}
+{% endif %}
+{#- Author End -#}
+
+{#- Favicon Start -#}
+{% set favicon = asset(site.data.site.favicon, { 'ignore_missing': true }) %}
+{% if favicon is not empty %}
+	{% set favicon_url = favicon|url %}
+	{% set favicon_subtype = favicon.subtype %}
+	{% set favicon_sizes = favicon.width ~ 'x' ~ favicon.height %}
+{% endif %}
+{#- Favicon End -#}
+
+{#- Image Start -#}
+{% if site.data.site.image is defined %}
+	{% set image = site.data.site.image %}
+{% endif %}
+{% if page.image is defined %}
+	{% set image = page.image %}
+{% endif %}
+{#- Image End -#}
+
+{#- Open Graph Start -#}
+{% set opengraph = {
+  'locale': site.language.locale,
+  'site_name': site.data.school.name|e,
+  'type': 'website',
+  'title': block('title'),
+  'description': block('description'),
+  'url': url(page, { canonical: true }),
+  'image': image|default(),
+} %}
+{#- Open Graph End -#}
+
+{#- Hack Start -#}
+{% if page.section == 'articles' or page.section == 'majors' or page.section == 'pages' %}
+	{% set opengraph = opengraph|merge({ 'type': 'article' }) %}
+{% endif %}
+{% if page.id == 'author' %}
+	{% set opengraph = opengraph|merge({ 'type': 'profile' }) %}
+{% endif %}
+{% if page.opengraph is defined or site.opengraph is defined %}
+	{% set opengraph = opengraph|merge(page.opengraph|default(site.opengraph)) %}
+{% endif %}
+{#- Hack End -#}
+
+{#- Twitter Start -#}
+{% set twitter = {
+  'site': site.data.school.socials.twitter,
+  'creator': site.data.author.socials.twitter,
+} %}
+{#- Twitter End -#}
+
+{#- Partial Start -#}
+<head>
+	<meta charset="UTF-8">
+	<title>{% block title %}{{ title|trim }}{% endblock %}</title>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+
+	<meta name="description" content="{% block description %}{{ description }}{% endblock %}" />
+	{% if keywords %}
+		<meta name="keywords" content="{{ keywords|join(', ') }}" />
+	{% endif %}
+	<meta name="subject" content="Education" />
+	<meta name="copyright" content="{{ site.data.school.name|e }}" />
+	<meta name="language" content="{{ site.language.name }}" />
+	{% if page.id == '404' or page.id == 'author' %}
+		<meta name="robots" content="noindex, nofollow" />
+	{% else %}
+		<meta name="robots" content="index, follow" />
+	{% endif %}
+	<meta name="Classification" content="Education" />
+
+	{% if author %}
+		<meta name="author" content="{{ author|e }}" />
+	{% endif %}
+	<meta name="email" content="{{ site.data.author.email|e }}" />
+    <meta name="website" content="{{ site.data.author.website|e }}" />
+    <meta name="owner" content="{{ site.data.author.name|e }}" />
+    <meta name="url" content="{{ site.data.author.website|e }}" />
+    <meta name="identifier-URL" content="{{ site.data.author.website|e }}" />
+
+	{#- Partial: favicon Start -#}
+	{% if favicon is not empty %}
+		<link rel="icon" href="{{ favicon_url }}" type="{{ favicon_subtype }}" sizes="{{ favicon_sizes }}" />
+		<link rel="shortcut icon" href="{{ favicon_url }}" type="{{ favicon_subtype }}" sizes="{{ favicon_sizes }}" />
+		<link rel="apple-touch-icon" href="{{ favicon_url }}" type="{{ favicon_subtype }}" sizes="{{ favicon_sizes }}" />
+	{% endif %}
+	{#- Partial: favicon End -#}
+
+	{#- Partial: alternates Start -#}
+	{% include 'partials/alternates.html.twig' with { 'title': title, 'page': page } only %}
+	{#- Partial: alternates End -#}
+
+	{#- Meta: open graph Start -#}
+	<meta property="og:locale" content="{{ opengraph.locale }}" />
+	<meta property="og:site_name" content="{{ opengraph.site_name }}" />
+	<meta property="og:type" content="{{ opengraph.type }}" />
+	<meta property="og:title" content="{{ opengraph.title }}" />
+	<meta property="og:description" content="{{ opengraph.description }}" />
+	<meta property="og:url" content="{{ url(page.url, {canonical:true}) }}" />
+	{% if opengraph.image %}
+		<meta property="og:image" content="{{ asset(opengraph.image)|url }}" />
+		<meta property="og:image:type" content="{{ asset(opengraph.image).subtype }}" />
+		<meta property="og:image:width" content="{{ asset(opengraph.image).width }}" />
+		<meta property="og:image:height" content="{{ asset(opengraph.image).height }}" />
+		<meta property="og:image:alt" content="{{ opengraph.title }}" />
+	{% endif %}
+	{#- Meta: open graph End -#}
+
+	{#- Meta: twitter Start ~#}
+    <meta name="twitter:title" content="{{ opengraph.title }}" />
+    <meta name="twitter:description" content="{{ opengraph.description }}" />
+	{%- if opengraph.image and asset(opengraph.image).width > 500 ~%}
+		<meta name="twitter:card" content="summary_large_image" />
+		<meta name="twitter:image" content="{{ asset(opengraph.image)|url }}" />
+		<meta name="twitter:image:alt" content="{{ opengraph.title }}" />
+	{%- else ~%}
+		<meta name="twitter:card" content="summary" />
+	{%- endif -%}
+	{%- if twitter.site ~%}
+		<meta name="twitter:site" content="@{{ twitter.site }}" />
+	{%- endif -%}
+	{%- if twitter.creator ~%}
+		<meta name="twitter:creator" content="@{{ twitter.creator }}" />
+	{%- endif %}
+	{#- Meta: twitter End -#}
+
+	{#- Meta: additional Start -#}
+	<meta name="category" content="Education" />
+    <meta name="coverage" content="Worldwide" />
+    <meta name="distribution" content="Global" />
+    <meta name="rating" content="General" />
+    <meta name="revisit-after" content="7 days" />
+    <meta http-equiv="Expires" content="0" />
+    <meta http-equiv="Pragma" content="no-cache" />
+    <meta http-equiv="Cache-Control" content="no-cache" />
+    <meta http-equiv="Copyright" content="{{ site.data.school.name|e }}" />
+    <meta http-equiv="imagetoolbar" content="no" />
+    <meta name="revisit-after" content="7" />
+    <meta name="webcrawlers" content="all" />
+    <meta name="rating" content="general" />
+    <meta name="spiders" content="all" />
+    <meta name="google-site-verification" content="J61GZ3fJ-haar2tsfmm-K_LKdv40kPks-ZgkSq7Pj-s" />
+    <meta itemprop="name" content="{{ site.data.school.name|e }}" />
+    <meta itemprop="description" content="{{ description }}" />
+    <meta itemprop="image" content="{{ asset(opengraph.image)|url }}" />
+	{#- Meta: additional End -#}
+
+	{#- Stylesheet Start -#}
+	<link rel="stylesheet" href="{{ asset(['css/bootstrap.min.css', 'css/materialdesignicons.min.css', 'css/tiny-slider.css', 'css/tobii.min.css'], { filename: 'css/plugins.min.css' })|url }}" />
+	<link rel="stylesheet" href="//unicons.iconscout.com/release/v3.0.6/css/line.css" />
+	<link rel="stylesheet" href="{{ asset(['css/style.min.css', 'css/color.css', 'css/custom.css'], { filename: 'css/styles.min.css' })|url }}" />
+	{#- Stylesheet End -#}
+
+	<script type="text/javascript" src="//platform-api.sharethis.com/js/sharethis.js#property=600c65b9fe6fa50012b7b7e8&product=inline-share-buttons" async="async"></script>
+	<script data-ad-client="ca-pub-4435219907558988" async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+</head>
+{#- Partial End -#}

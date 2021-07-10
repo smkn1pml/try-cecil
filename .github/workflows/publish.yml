@@ -14,6 +14,7 @@ on:
     - cron: "0 */12 * * *"
 
 env:
+  CECIL_VERSION: "5.56.1"
   INTL: "no" # 'yes' if internationalization extensions are required
 
 jobs:
@@ -42,7 +43,7 @@ jobs:
           php composer.phar install --prefer-dist --no-dev --no-progress --no-interaction
       - name: Build site with Cecil
         env:
-          CECIL_BASEURL: "https://smkn1pml.sch.id/try-cecil/"
+          CECIL_BASEURL: "https://smkn1pml.github.io/try-cecil/"
         run: |
           echo "### Downloading Cecil $CECIL_VERSION"
           if [[ -z "$CECIL_VERSION" ]]; then
@@ -78,5 +79,5 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         with:
-          email: suluh.webdevelopers@hotmail.com
+          email: 20874779+github-actions[bot]@users.noreply.github.com
           build_dir: _site

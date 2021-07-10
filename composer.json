@@ -1,18 +1,45 @@
 {
   "name": "smkn1pml/website",
+  "version": "2.0.0",
+  "homepage": "https://smkn1pml.sch.id",
   "type": "project",
   "description": "Static website of SMK Negeri 1 Pemalang built with Cecil",
   "keywords": [
-    "smkn1pml"
+    "smkn1pml",
+    "website",
+    "static-site",
+    "markdown",
+    "twig"
   ],
   "license": "CC-BY-NC-ND-4.0",
-  "require": {},
+  "require": {
+    "php": ">=7.1",
+    "ext-intl": "*",
+    "ext-gettext": "*",
+    "cecil/cecil": "^5.56.1"
+  },
   "authors": [
     {
       "name": "Suluh Sulistiawan",
-      "email": "suluh.webdevelopers@hotmail.com"
+      "email": "suluh.webdevelopers@hotmail.com",
+      "homepage": "https://suluh.my.id",
+      "role": "Maintainer"
     }
   ],
+  "support": {
+    "source": "https://github.com/smkn1pml/website",
+    "issues": "https://github.com/smkn1pml/website/issues"
+  },
+  "scripts": {
+    "build": [
+      "cecil build"
+    ],
+    "watch": [
+      "cecil serve"
+    ],
+    "post-install-cmd": [],
+    "post-update-cmd": []
+  },
   "minimum-stability": "dev",
   "prefer-stable": true
 }

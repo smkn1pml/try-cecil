@@ -1,0 +1,335 @@
+<!DOCTYPE html>
+<html lang="en">
+
+{% include 'partials/head.html.twig' with { 'page': page, 'site': site } only %}
+
+<body>
+	{% include 'partials/noscript.html.twig' with { 'page': page, 'site': site } only %}
+	{% include 'partials/preloader.html.twig' with { 'page': page, 'site': site } only %}
+	{% include 'partials/navbar/landing.html.twig' with { 'page': page, 'site': site } only %}
+
+	{% block hero %}
+		<section class="bg-half-260 bg-primary d-table w-100 hero-background" style="background: url('{{ site.data.site.hero|url }}')">
+			<div class="bg-overlay"></div>
+
+			<div class="container">
+				<div class="row">
+					<div class="col-12">
+						<div class="title-heading text-center mt-4">
+							<h1 class="display-4 title-dark fw-bold text-white mb-3">
+								{{ site.data.school.name }}
+							</h1>
+							<p class="para-desc mx-auto text-white-50">
+								{{ site.data.school.tagline }}
+							</p>
+							<div class="mt-4 pt-2">
+								<a href="{{ url('admissions') }}" class="btn btn-primary">
+									<i class="uil uil-file-edit-alt"></i> Informasi PPDB
+								</a>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<div class="position-relative">
+			<div class="shape overflow-hidden text-white">
+				<svg viewBox="0 0 2880 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+					<path d="M0 48H1437.5H2880V0H2160C1442.5 52 720 0 720 0H0V48Z" fill="currentColor"></path>
+				</svg>
+			</div>
+		</div>
+	{% endblock %}
+
+	{% block features %}
+		<section class="section">
+			<div class="container">
+				<div class="row justify-content-center">
+					<div class="col-12 text-center">
+						<div class="section-title mb-4 pb-2">
+							<h4 class="title mb-4">Mari Bergabung</h4>
+							<p class="text-muted para-desc mx-auto mb-0">
+								Mari bergabung bersama <span class="text-primary fw-bold">{{ site.data.school.name }}</span>, kami siap mengantarkanmu kepada pintu kesuksesan.
+							</p>
+						</div>
+					</div>
+				</div>
+
+				<div class="row" id="counter">
+					<div class="col-md-3 col-6 mt-4 pt-2">
+						<div class="counter-box text-center">
+							<img src="{{ asset('images/icon/accreditation.svg') }}" class="avatar avatar-small" alt="">
+							<h2 class="mb-0 mt-4">{{ site.data.school.summary.accreditation }}</h2>
+							<h6 class="counter-head text-muted">Akreditasi</h6>
+						</div>
+					</div>
+
+					<div class="col-md-3 col-6 mt-4 pt-2">
+						<div class="counter-box text-center">
+							<img src="{{ asset('images/icon/achievement.svg') }}" class="avatar avatar-small" alt="">
+							<h2 class="mb-0 mt-4"><span class="counter-value" data-target="{{ site.data.school.summary.achievement }}">1</span>+</h2>
+							<h6 class="counter-head text-muted">Prestasi</h6>
+						</div>
+					</div>
+
+					<div class="col-md-3 col-6 mt-4 pt-2">
+						<div class="counter-box text-center">
+							<img src="{{ asset('images/icon/extracurricular.svg') }}" class="avatar avatar-small" alt="">
+							<h2 class="mb-0 mt-4"><span class="counter-value" data-target="{{ site.data.extracurriculars|length }}">1</span>+</h2>
+							<h6 class="counter-head text-muted">Ekstrakurikuler</h6>
+						</div>
+					</div>
+
+					<div class="col-md-3 col-6 mt-4 pt-2">
+						<div class="counter-box text-center">
+							<img src="{{ asset('images/icon/schedule.svg') }}" class="avatar avatar-small" alt="">
+							<h2 class="mb-0 mt-4">{{ site.data.school.summary.dayschool }}</h2>
+							<h6 class="counter-head text-muted">Hari Sekolah</h6>
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<div class="container mt-100 mt-60">
+				<div class="row">
+					<div class="col-lg-4 col-md-6 col-12">
+						<div
+							class="card features fea-primary rounded p-4 bg-light position-relative overflow-hidden border-0">
+							<span class="h1 icon2 text-primary">
+								<i class="uil uil-briefcase"></i>
+							</span>
+							<div class="card-body p-0 content">
+								<h5>Visi Kami</h5>
+								<p class="para text-muted mb-0">
+									{{ site.data.school.vision }}
+								</p>
+							</div>
+						</div>
+					</div>
+
+					<div class="col-lg-4 col-md-6 col-12 mt-4 mt-sm-0 pt-2 pt-sm-0">
+						<div class="card features fea-primary rounded p-4 bg-light position-relative overflow-hidden border-0">
+							<span class="h1 icon2 text-primary">
+								<i class="uil uil-rocket"></i>
+							</span>
+							<div class="card-body p-0 content">
+								<h5>Misi Kami</h5>
+								{% if site.data.school.missions|length > 1 %}
+									<ol class="para text-muted mb-0" style="padding-left: 1rem;">
+										{% for mission in site.data.school.missions %}
+											<li>
+												{{ mission.content }}
+											</li>
+										{% endfor %}
+									</ol>
+								{% else %}
+									<p class="para text-muted mb-0">
+										{{ site.data.school.missions[0].content }}
+									</p>
+								{% endif %}
+							</div>
+						</div>
+					</div>
+
+					<div class="col-lg-4 col-md-6 col-12 mt-4 mt-lg-0 pt-2 pt-lg-0">
+						<div
+							class="card features fea-primary rounded p-4 bg-light position-relative overflow-hidden border-0">
+							<span class="h1 icon2 text-primary">
+								<i class="uil uil-crosshairs"></i>
+							</span>
+							<div class="card-body p-0 content">
+								<h5>Tujuan Kami</h5>
+								{% if site.data.school.goals|length > 1 %}
+									<ol class="para text-muted mb-0" style="padding-left: 1rem;">
+										{% for mission in site.data.school.goals %}
+											<li>
+												{{ mission.content }}
+											</li>
+										{% endfor %}
+									</ol>
+								{% else %}
+									<p class="para text-muted mb-0">
+										{{ site.data.school.goals[0].content }}
+									</p>
+								{% endif %}
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+	{% endblock %}
+
+	{% block majors_extracurriculars %}
+		<section class="section bg-light">
+			{% block majors %}
+				<div class="container">
+					<div class="row justify-content-center">
+						<div class="col-12">
+							<div class="section-title text-center mb-4 pb-2">
+								<h4 class="title mb-4">Kompetensi Keahlian</h4>
+								<p class="text-muted para-desc mb-0 mx-auto">
+									di SMK Negeri 1 Pemalang ini, terdapat <span class="text-primary fw-bold">{{ site.pages.all|filter(s => s.section == 'majors')|length }} kompetensi keahlian</span>, diantaranya:
+								</p>
+							</div>
+						</div>
+					</div>
+					<div class="row">
+						{% for major in site.pages.all|filter(s => s.section == 'majors')|sort %}
+							<div class="col-md-4 mt-4 pt-2">
+								<div class="d-flex features feature-clean p-4 bg-white shadow rounded" style="border-bottom: 4px solid {{ major.color }};">
+									<div class="icons text-primary d-block text-center rounded">
+										<i class="uil uil-{{ major.icon }} d-block rounded h3 mb-0"></i>
+									</div>
+									<div class="flex-1 content ms-4">
+										<h5 class="mb-1">
+											<a href="{{ major.url }}" class="text-dark">
+												{{ major.slug|upper }}
+											</a>
+										</h5>
+										<p class="text-muted mb-0">
+											{{ major.title }}
+										</p>
+									</div>
+								</div>
+							</div>
+						{% endfor %}
+					</div>
+				</div>
+			{% endblock %}
+
+			{% block extracurriculars %}
+				<div class="container mt-100 mt-60">
+					<div class="row align-items-end mb-4 pb-2">
+						<div class="col-md-8">
+							<div class="section-title text-center text-md-start">
+								<h6 class="text-primary">Ikuti Kegiatan</h6>
+								<h4 class="title mb-4">Ekstrakurikuler</h4>
+								<p class="text-muted mb-0 para-desc">
+									Ikuti kegiatan ekstrakurikuler yang ada di <span class="text-primary fw-bold">{{ site.data.school.name }}</span>, untuk mengisi waktu luang dengan kegiatan yang bermanfaat.
+								</p>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="container-fluid">
+					<div class="row">
+						<div class="col-md-12 mt-4 pt-2">
+							<div class="tiny-four-item">
+								{% for eca in site.data.extracurriculars %}
+								<div class="tiny-slide">
+									<div class="popular-tour rounded-md position-relative overflow-hidden mx-2">
+										<img src="{{ eca.image|url }}" class="img-fluid" alt="{{ eca.name }}">
+										<div class="overlay-work bg-dark"></div>
+										<div class="content">
+											<a href="javascript:void(0)" class="title text-white h4 title-dark">{{ eca.name }}</a>
+										</div>
+									</div>
+								</div>
+								{% endfor %}
+							</div>
+						</div>
+					</div>
+				</div>
+			{% endblock %}
+		</section>
+	{% endblock %}
+
+	{% block testimonial %}
+		<section class="section">
+			<div class="container">
+				<div class="row justify-content-center">
+					<div class="col-12 text-center">
+						<div class="section-title mb-4 pb-2">
+							<h4 class="title mb-4">Testimoni Alumni</h4>
+							<p class="text-muted para-desc mb-0 mx-auto">Kata mereka lulusan <span class="text-primary fw-bold">{{ site.data.school.name }}</span> yang sudah melanjutkan pendidikan ataupun bekerja.</p>
+						</div>
+					</div>
+				</div>
+
+				<div class="row justify-content-center">
+					<div class="col-lg-12 pt-2 mt-2 text-center">
+						<div class="tiny-three-item">
+							{% for human in site.data.testimonials %}
+								<div class="tiny-slide">
+									<div class="card client-testi m-2 text-center rounded shadow border-0">
+										<div class="card-body">
+											<p class="text-muted h6 fst-italic">" {{ human.message }} "</p>
+											<img src="{{ human.photo|url }}"
+												class="img-fluid avatar avatar-small mt-3 rounded-circle mx-auto shadow" alt="{{ human.name }}">
+											<h6 class="text-primary mt-3">
+												{{ human.name }}
+												<small class="text-muted d-block">{{ human.class }} angkatan {{ human.batch }}</small>
+											</h6>
+										</div>
+									</div>
+								</div>
+							{% endfor %}
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+	{% endblock %}
+
+	{% block latest_articles %}
+		<section class="section bg-light" style="background: url('{{ asset('images/build.png') }}') bottom no-repeat;">
+			<div class="container">
+				<div class="row align-items-center mb-4 pb-2">
+					<div class="col-lg-6">
+						<div class="section-title text-center text-lg-start">
+							<h6 class="text-primary">Artikel</h6>
+							<h4 class="title mb-4 mb-lg-0">Baca Artikel Terbaru</h4>
+						</div>
+					</div>
+
+					<div class="col-lg-6">
+						<div class="section-title text-center text-lg-start">
+							<p class="text-muted mb-0 mx-auto para-desc">Berita terbaru seputar Bursa Kerja Khusus (BKK) dan Kegiatan di <span class="text-primary fw-bold">{{ site.data.school.name }}</span>.</p>
+						</div>
+					</div>
+				</div>
+
+				<div class="row">
+					{% for post in site.pages.all|filter(s => s.section == 'articles')|sort((a, b) => a.date|date('U') > b.date|date('U'))|slice(0, 3)|sort((a, b) => a.date|date('U') < b.date|date('U')) %}
+						<div class="col-lg-4 col-md-6 mt-4 pt-2">
+							<div class="card blog rounded border-0 shadow">
+								<div class="position-relative">
+									<img src="{{ post.thumbnail|url }}" class="card-img-top rounded-top thumbnail-cover" alt="{{ post.title }}">
+									<div class="overlay rounded-top bg-dark"></div>
+								</div>
+								<div class="card-body content">
+									<h5>
+										<a href="{{ post.url }}" class="card-title title text-dark">{{ post.title }}</a>
+									</h5>
+									<div class="post-meta d-flex justify-content-between mt-3">
+										<ul class="list-unstyled mb-0">
+											<li class="list-inline-item me-2 mb-0"><a href="{{ post.url }}" class="text-muted like"><i class="uil uil-heart me-1"></i>33</a></li>
+											<li class="list-inline-item"><a href="{{ post.url }}" class="text-muted comments"><i class="uil uil-comment me-1"></i>08</a></li>
+										</ul>
+										<a href="page-blog-detail.html" class="text-muted readmore">Read More <i class="uil uil-angle-right-b align-middle"></i></a>
+									</div>
+								</div>
+								<div class="author">
+									<small class="text-light user d-block"><i class="uil uil-user"></i> {{ post.author }}</small>
+									<small class="text-light date"><i class="uil uil-calendar-alt"></i> {{ post.date|date("F d, Y", "Asia/Jakarta") }}</small>
+								</div>
+							</div>
+						</div>
+					{% endfor %}
+
+					<div class="col-12 mt-4 pt-2">
+						<a href="/articles/" class="btn btn-primary">Selengkapnya <i class="mdi mdi-chevron-right"></i></a>
+					</div>
+				</div>
+			</div>
+		</section>
+	{% endblock %}
+
+	{% include 'partials/footer.html.twig' with { 'page': page, 'site': site } only %}
+	{% include 'partials/back2top.html.twig' with { 'page': page, 'site': site } only %}
+	{% include 'partials/script.html.twig' with { 'page': page, 'site': site } only %}
+</body>
+
+</html>

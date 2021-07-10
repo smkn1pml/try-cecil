@@ -1,23 +1,23 @@
 school:
   - text: Sejarah
-    link: /history/
+    link: history
   - text: Visi & Misi
-    link: /vision-mission/
+    link: vision-mission
   - text: Fasilitas
-    link: /facilities/
+    link: facilities
   - text: Profil
-    link: /p/profile/
+    link: p/profile
 
 related:
   - text: E-Learning
-    link: http://elearning.smkn1pml.sch.id/
+    link: http://elearning.smkn1pml.sch.id
   - text: Unduh Berkas
-    link: http://mirror.smkn1pml.sch.id/
+    link: http://mirror.smkn1pml.sch.id
   - text: E-Library
-    link: http://perpus.smkn1pml.sch.id/
+    link: http://perpus.smkn1pml.sch.id
   - text: Pusat Data
-    link: http://cloud.smkn1pml.sch.id/
+    link: http://cloud.smkn1pml.sch.id
   - text: E-Rapor
     link: https://bit.ly/erapornepal
   - text: AYOPKL!
-    link: http://pkl.smkn1pml.sch.id/
+    link: http://pkl.smkn1pml.sch.id

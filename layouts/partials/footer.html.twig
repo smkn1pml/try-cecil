@@ -1,0 +1,93 @@
+<footer class="footer">
+	<div class="container">
+		<div class="row">
+			<div class="col-lg-4 col-12 mb-0 mb-md-4 pb-0 pb-md-2">
+				<a href="{{ url() }}" class="logo-footer">
+					<img src="{{ site.data.site.logo|url }}" height="62" alt="">
+				</a>
+				<p class="mt-4">
+					{{ site.data.school.tagline }}
+				</p>
+				<ul class="list-unstyled social-icon foot-social-icon mb-0 mt-4">
+					<li class="list-inline-item me-1">
+						<a target="_blank" rel="noindex, nofollow" href="{{ 'https://www.facebook.com/' ~ site.data.school.socials.facebook }}" class="rounded"><i data-feather="facebook" class="fea icon-sm fea-social"></i></a>
+					</li>
+					<li class="list-inline-item me-1">
+						<a target="_blank" rel="noindex, nofollow" href="{{ 'https://www.instagram.com/' ~ site.data.school.socials.instagram }}" class="rounded"><i data-feather="instagram" class="fea icon-sm fea-social"></i></a>
+					</li>
+					<li class="list-inline-item me-1">
+						<a target="_blank" rel="noindex, nofollow" href="{{ 'https://www.twitter.com/' ~ site.data.school.socials.twitter }}" class="rounded"><i data-feather="twitter" class="fea icon-sm fea-social"></i></a>
+					</li>
+					<li class="list-inline-item me-1">
+						<a target="_blank" rel="noindex, nofollow" href="{{ 'https://www.linkedin.com/' ~ site.data.school.socials.linkedin }}" class="rounded"><i data-feather="linkedin" class="fea icon-sm fea-social"></i></a>
+					</li>
+					<li class="list-inline-item me-1">
+						<a target="_blank" rel="noindex, nofollow" href="{{ 'https://www.youtube.com/' ~ site.data.school.socials.youtube }}" class="rounded"><i data-feather="youtube" class="fea icon-sm fea-social"></i></a>
+					</li>
+				</ul>
+			</div>
+
+			<div class="col-lg-2 col-md-4 col-12 mt-4 mt-sm-0 pt-2 pt-sm-0">
+				<h5 class="text-light footer-head">Sekolah</h5>
+				<ul class="list-unstyled footer-list mt-4">
+					{% for school in site.data.links.school %}
+						<li>
+							<a href="{{ school.link }}" class="text-foot"><i class="uil uil-angle-right-b me-1"></i> {{ school.text }}</a>
+						</li>
+					{% endfor %}
+				</ul>
+			</div>
+
+			<div class="col-lg-3 col-md-4 col-12 mt-4 mt-sm-0 pt-2 pt-sm-0">
+				<h5 class="text-light footer-head">Tautan Terkait</h5>
+				<ul class="list-unstyled footer-list mt-4">
+					{% for related in site.data.links.related %}
+						<li>
+							<a target="_blank" rel="noindex, nofollow" href="{{ related.link }}" class="text-foot"><i class="uil uil-angle-right-b me-1"></i> {{ related.text }}</a>
+						</li>
+					{% endfor %}
+				</ul>
+			</div>
+
+			<div class="col-lg-3 col-md-4 col-12 mt-4 mt-sm-0 pt-2 pt-sm-0">
+				<h5 class="text-light footer-head">Informasi Kontak</h5>
+				<ul class="list-unstyled footer-list mt-4">
+					<li>
+						<span class="text-foot" rel="noindex, nofollow" target="_blank"><i class="mdi mdi-google-maps mr-1"></i> {{ site.data.school.address.text }}</span>
+					</li>
+					<li>
+						<span class="text-foot"><i class="mdi mdi-phone mr-1"></i> {{ site.data.school.contact.phone }}</span>
+					</li>
+					<li>
+						<span class="text-foot"><i class="mdi mdi-fax mr-1"></i> {{ site.data.school.contact.fax }}</span>
+					</li>
+					<li>
+						<span class="text-foot"><i class="mdi mdi-email mr-1"></i> {{ site.data.school.contact.email }}</span>
+					</li>
+				</ul>
+			</div>
+		</div>
+	</div>
+</footer>
+
+<footer class="footer footer-bar">
+	<div class="container text-center">
+		<div class="row align-items-center">
+			<div class="col-sm-6">
+				<div class="text-sm-start">
+					<p class="mb-0">
+						&copy; {{ 'now'|date('Y') }} {{ site.data.school.name }}. All Rights Reserved.
+					</p>
+				</div>
+			</div>
+
+			<div class="col-sm-6 mt-4 mt-sm-0 pt-2 pt-sm-0">
+				<div class="text-sm-end">
+					<p class="mb-0">
+						Dibuat dengan <i class="mdi mdi-heart text-danger"></i> oleh <a href="{{ url('author') }}" rel="noindex, nofollow">Shafima Dev</a>
+					</p>
+				</div>
+			</div>
+		</div>
+	</div>
+</footer>

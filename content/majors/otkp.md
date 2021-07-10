@@ -1,6 +1,7 @@
 ---
 title: Otomatisasi dan Tata Kelola Perkantoran
 color: blue
+icon: monitor
 external:
 published: true
 ---
