@@ -4,7 +4,7 @@ baseline: >
 description: >
   SMK Negeri 1 Pemalang adalah satu-satunya Lembaga Pendidikan Menengah Kejuruan Negeri yang ada di Pemalang, Jawa Tengah.
 
-baseurl: http://localhost:8000/
+baseurl: https://smkn1pml.github.io/try-cecil/
 canonicalurl: true
 
 pagination:
