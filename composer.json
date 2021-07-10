@@ -12,12 +12,6 @@
     "twig"
   ],
   "license": "CC-BY-NC-ND-4.0",
-  "require": {
-    "php": ">=7.1",
-    "ext-intl": "*",
-    "ext-gettext": "*",
-    "cecil/cecil": "^5.56.1"
-  },
   "authors": [
     {
       "name": "Suluh Sulistiawan",
@@ -39,6 +33,13 @@
     ],
     "post-install-cmd": [],
     "post-update-cmd": []
+  },
+  "composer-plugin-api": "^1.0 |  ^2.0",
+  "require": {
+    "php": ">=7.1",
+    "ext-intl": "*",
+    "ext-gettext": "*",
+    "cecil/cecil": "*"
   },
   "minimum-stability": "dev",
   "prefer-stable": true
