@@ -2,10 +2,10 @@
 	<div class="container">
 		<a class="logo" href="{{ url() }}">
 			<span class="logo-light-mode">
-				<img src="{{ asset(site.data.site.logo) }}" class="l-dark" height="24" alt="">
-				<img src="{{ asset(site.data.site.logo) }}" class="l-light" height="24" alt="">
+				<img src="{{ asset(site.data.site.logo)|url }}" class="l-dark" height="24" alt="">
+				<img src="{{ asset(site.data.site.logo)|url }}" class="l-light" height="24" alt="">
 			</span>
-			<img src="{{ asset(site.data.site.logo) }}" height="24" class="logo-dark-mode" alt="">
+			<img src="{{ asset(site.data.site.logo)|url }}" height="24" class="logo-dark-mode" alt="">
 		</a>
 
 		<div class="menu-extras">
